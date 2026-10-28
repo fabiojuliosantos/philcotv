@@ -109,7 +109,7 @@ class MainActivity : Activity() {
     private fun buildUi() {
         val root = LinearLayout(this).apply {
             orientation = LinearLayout.VERTICAL
-            setBackgroundColor(background)
+            setBackgroundColor(this@MainActivity.background)
             setPadding(dp(46), dp(26), dp(46), dp(16))
             clipChildren = false
             clipToPadding = false
